@@ -1,0 +1,66 @@
+body{
+    background-image: url("bakery.avif");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    color: black;
+}
+
+h2{
+    font-size:60px;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+button{
+    display:block;
+    margin:auto;
+    padding:10px;
+    border:none;
+    cursor: pointer;
+    font-weight:bold;
+    width:200px;
+    border-radius: 25px; /* Adjust the value to change the level of roundness */
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px #f6bd60;
+
+}
+button:hover {
+    background-color: #f6bd60; /* Darker green */
+}
+#increment-btn{
+    margin-bottom: 10px;
+}
+#reset-btn{
+    margin-top:10px;
+    
+}
+#save-el{
+    margin-bottom: 10;
+    font-size: 20px;
+    color: black; /* Couleur du texte */ /* Mettre le texte en majuscules */
+   
+    
+}
+.rectangle {
+    width: 400px; /* Largeur du rectangle */
+    margin: auto; /* Hauteur du rectangle */
+    margin-top:50px;
+     /* Couleur de fond du rectangle */
+    border: 3px solid black; 
+    /* Bordure du rectangle */
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+    
+}
+
+h1 {
+    font-size: 40px;
+    color: #6a040f; /* Couleur du texte */
+    text-transform: uppercase; /* Mettre le texte en majuscules */
+    text-shadow: 5px 2px 0px #777; /* Ombre du texte */
+    transform: perspective(400px) rotateX(25deg); /* Perspective et rotation */
+    
+}
+
+
